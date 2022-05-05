@@ -1,0 +1,24 @@
+.headContainer {
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.headUl {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headLi {
+    color: white;
+    list-style-type: none;
+    display: inline;
+    transition: all 0.3s ease-in;
+}
+
+.headLi:hover {
+    color: gray;
+    transition: all 0.3s ease-in;
+}
