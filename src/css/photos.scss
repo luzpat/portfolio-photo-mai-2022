@@ -2,11 +2,50 @@ body {
     background-color: black;
 }
 
+.titrePagePhoto {
+    color: white;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+
+.containerPhoto {
+    display: flex;
+}
+
+
 .divPhoto {
-    display: inline;
+    display: flex;
+    width: 50vw;
+    margin: 4rem 4rem 4rem 4rem;
+}
+
+.divText {
+    display: flex;
+    height: 700px;
+    margin: 4rem 0 4rem 8rem;
+    padding: 2rem;
+    width: 30vw;
+    color: white;
+    align-items: center;
+    border: 1px solid white;
 }
 
 .photos {
-    margin: 4rem 0 1rem 4rem;
-    height: 200px;
+    height: 700px;
+    margin: 0 auto 0 auto;
+}
+
+.figurePhoto {
+    align-items: center;
+    justify-content: center;
+}
+
+.photofig {
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0 1rem 0;
+    background: white;
+    border-radius: 0 0 10px 10px;
 }

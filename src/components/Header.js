@@ -25,7 +25,7 @@ const Header = () => {
                 </NavLink>
 
                 <NavLink 
-                    to="/contcts" 
+                    to="/contacts" 
                     style={{textDecoration: "none"}}>
 
                     <li className={li}>Contacts</li>

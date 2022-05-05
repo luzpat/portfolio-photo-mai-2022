@@ -8,7 +8,7 @@ import Contacts from './pages/Contacts';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Acceuil />} />
           <Route path="/photos" element={<Photos />} />
