@@ -14,47 +14,33 @@ import plage_2 from '../img/Plouarzel Plage.jpg';
 
 const AcceuilDivPrincipale = () => {
 
+
+    //"images" Array
     const images = [abbaye, arche, coccinelle, perros, phare, plage, plage_2];
 
-        const slide = images.map((arr) => {
+
+    //Defining slide trough array "images"
+    const slide = images.map((arr) => {
         return (
             <div className="carouselDiv">
-            <Carousel>
-                <div className="imageDiv">
-                    <img src={arr} alt="images" height="100%"/>
-                </div>
-            </Carousel>
+                <Carousel>
+                    <div className="imageDiv">
+                        <img src={arr} alt="images" height="100%" />
+                    </div>
+                </Carousel>
             </div>
         )
     });
 
-return (
+    return (
 
-    <Carousel autoPlay infiniteLoop interval={5000} >
-        {slide}
-    </Carousel>
-)
-    // const slide = images.map((arr) => {
-    //     return (
-    //         <CarouselItem>
-    //             <img src={arr} alt="" height="600" />
-    //         </CarouselItem>
-    //     )
-    // });
-
-    // return (
-    //     <div className="container">
-    //         <h1 className="acceuilTitle">Bienvenue sur mon <br /> portfolio photographique.</h1>
-    //         <div className='app'>
-    //             <Carousel>
-    //                 {slide}
-    //             </Carousel>
-    //         </div>
-    //     </div>
-    // );
-
-
-
+        <div>
+            <h1>Bienvenue sur mon <br /> portfolio photographique.</h1>
+            <Carousel autoPlay infiniteLoop interval={5000}>
+                {slide}
+            </Carousel>
+        </div>
+    )
 };
 
 export default AcceuilDivPrincipale;

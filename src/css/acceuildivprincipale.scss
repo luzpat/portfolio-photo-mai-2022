@@ -1,5 +1,6 @@
 .container {
-    height: 100vh;
+    height: 60vh;
+    margin: 2rem;
     background: radial-gradient(rgb(80, 80, 80), rgb(8, 8, 8));
 }
 
@@ -11,9 +12,4 @@
 
 .carouselDiv {
     margin: 5rem;
-    display: flex;
-}
-
-.imageDiv {
-    
 }

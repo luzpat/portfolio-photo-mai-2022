@@ -1,5 +1,6 @@
 import React from 'react';
 import AcceuilDivPrincipale from '../components/AcceuilDivPrincipale';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 const Acceuil = () => {
@@ -7,6 +8,7 @@ const Acceuil = () => {
         <div>
             <Header />
             <AcceuilDivPrincipale />
+            <Footer />
         </div>
     );
 };
