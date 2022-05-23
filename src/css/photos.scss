@@ -22,17 +22,20 @@ body {
 
 .divText {
     display: flex;
-    height: 700px;
-    margin: 4rem 0 4rem 8rem;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    margin: 4rem 5rem 4rem 2rem;
     padding: 2rem;
     width: 30vw;
     color: white;
     align-items: center;
+    justify-content: center;
     border: 1px solid white;
+    text-align: justify;
 }
 
 .photos {
-    height: 700px;
+    // height: 600px;
     margin: 0 auto 0 auto;
 }
 

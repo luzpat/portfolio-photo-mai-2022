@@ -1,10 +1,19 @@
 .container {
     height: 100vh;
-    background: radial-gradient(rgb(80, 80, 80), black);
+    background: radial-gradient(rgb(80, 80, 80), rgb(8, 8, 8));
 }
 
 .acceuilTitle {
     color: white;
     font-size: 4rem;
     padding: 2rem;
+}
+
+.carouselDiv {
+    margin: 5rem;
+    display: flex;
+}
+
+.imageDiv {
+    
 }

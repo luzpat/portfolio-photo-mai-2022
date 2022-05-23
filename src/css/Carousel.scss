@@ -1,42 +1,42 @@
-.carousel {
-    overflow: hidden;
-    margin: 2rem;
-}
+// .carousel {
+//     overflow: hidden;
+//     margin: 2rem;
+// }
 
-.inner {
-    white-space: nowrap;
-    transition: transform 0.3s;
-}
+// .inner {
+//     white-space: nowrap;
+//     transition: transform 0.3s;
+// }
 
-.carousel-item {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 600px;
-    color: #fff;
-}
+// .carousel-item {
+//     display: inline-flex;
+//     align-items: center;
+//     justify-content: center;
+//     height: 600px;
+//     color: #fff;
+// }
 
-.indicators {
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
-}
+// .indicators {
+//     display: flex;
+//     justify-content: center;
+//     vertical-align: middle;
+// }
 
-.indicators > button {
-    margin: 2rem;
-    font-size: 0.8rem;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-    border: none;
-}
+// .indicators > button {
+//     margin: 2rem;
+//     font-size: 0.8rem;
+//     border-radius: 20px;
+//     background-color: black;
+//     color: white;
+//     border: none;
+// }
 
-.indicators > button:hover {
-    cursor: pointer;
-    background-color: gray;
-}
+// .indicators > button:hover {
+//     cursor: pointer;
+//     background-color: gray;
+// }
 
-.indicators > button.active {
-    background-color: gray;
-    color: #fff;
-}
+// .indicators > button.active {
+//     background-color: gray;
+//     color: #fff;
+// }

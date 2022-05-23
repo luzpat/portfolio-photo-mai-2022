@@ -1,0 +1,28 @@
+.contactContainer {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    padding: 2rem;}
+
+.logo {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.insta, .linkedin {
+    margin: 3rem;
+}
+
+p {
+    color: white;
+    margin: 2rem;
+    display: inline;
+    font-size: 1.4rem;
+}
+
